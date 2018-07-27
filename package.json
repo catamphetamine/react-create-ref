@@ -1,0 +1,31 @@
+{
+  "name": "react-create-ref",
+  "version": "1.0.0",
+  "description": "React.createRef() polyfill",
+  "main": "index.commonjs.js",
+  "module": "index.js",
+  "sideEffects": false,
+  "peerDependencies": {
+    "react": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catamphetamine/react-create-ref.git"
+  },
+  "keywords": [
+    "react",
+    "createref",
+    "create",
+    "ref",
+    "polyfill"
+  ],
+  "author": "catamphetamine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/catamphetamine/react-create-ref/issues"
+  },
+  "homepage": "https://github.com/catamphetamine/react-create-ref#readme"
+}
