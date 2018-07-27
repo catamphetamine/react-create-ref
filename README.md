@@ -16,13 +16,17 @@ Calls native `React.createRef()` if it's available (React >= 16.3), calls the po
 import createRef from 'react-create-ref'
 
 class Example extends React.Component {
-	constructor() {
-		this.input = createRef()
-	}
+  constructor() {
+    this.input = createRef()
+  }
 
-	render() {
-		<input type="text" ref={this.input} />
-		<button type="button" onClick={() => this.input.current.focus()} />
-	}
+  render() {
+    return (
+      <div>
+        <input type="text" ref={this.input} />
+        <button type="button" onClick={() => this.input.current.focus()} />
+      </div>
+    )
+  }
 }
 ```
