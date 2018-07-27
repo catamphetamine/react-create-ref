@@ -22,10 +22,10 @@ class Example extends React.Component {
 
   render() {
     return (
-      <div>
+      <form>
         <input type="text" ref={this.input} />
         <button type="button" onClick={() => this.input.current.focus()} />
-      </div>
+      </form>
     )
   }
 }
