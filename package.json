@@ -9,7 +9,7 @@
     "react": "*"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "babel-node test --presets @babel/preset-env"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,11 @@
   "bugs": {
     "url": "https://github.com/catamphetamine/react-create-ref/issues"
   },
-  "homepage": "https://github.com/catamphetamine/react-create-ref#readme"
+  "homepage": "https://github.com/catamphetamine/react-create-ref#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "react": "^15.6.2"
+  }
 }
